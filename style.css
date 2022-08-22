@@ -51,7 +51,11 @@ body {
 }
 
 /* Header */
-header {}
+header {
+  position: fixed; 
+  width: 100%; 
+  z-index: 10;
+}
 .header-inner{
   width: 1300px; 
   margin: auto; 
