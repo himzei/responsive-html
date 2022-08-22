@@ -78,7 +78,6 @@ header {
 }
 /* Section : Welcome */
 .welcome {
-  border: 5px solid #000;
   height: 90vh;
   position: relative;
 }
@@ -132,4 +131,46 @@ header {
 .btn.guide{
   background-color: #fff;
   color: #222;
+}
+
+/* 마우스 휠 */
+.mouse {
+  border: 2px solid #000; 
+  position: absolute; 
+  width: 32px; 
+  height: 45px; 
+  border-radius: 30px;
+  bottom: 100px; 
+  left: 250px; 
+
+}
+.wheel {
+  position: absolute;
+  width: 4px; 
+  height: 15px; 
+  background: #000; 
+  border-radius: 4px; 
+  left: 12px; 
+  top: 10px;
+  animation: wheels 1s linear infinite;
+}
+@keyframes wheels {
+  0%{
+    top: 10px; 
+  }
+  50%{
+    top: 20px; 
+  }
+  100%{
+    top: 10px;
+  }
+}
+
+/* Slick Custom CSS */
+.slideshow .slick-arrow {
+  border: 1px solid #000; 
+  display: none !important; 
+}
+.slideshow * {
+  outline: none; 
 }
