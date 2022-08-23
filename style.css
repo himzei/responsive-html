@@ -562,3 +562,36 @@ h1.slogan {
 .slideshow * {
   outline: none; 
 }
+
+/* Review Slider */
+.review-slider .slick-dots li {
+  margin: 0; 
+
+} 
+.review-slider .slick-dots li button:before {
+  opacity: 1;
+  transform: scale(0.8);
+}
+.review-slider .slick-dots li.slick-active button:before{
+  color: transparent; 
+  opacity: 1;
+  border: 1px solid #000; 
+  border-radius: 50%;
+  top: -2px;
+  transform: scale(0.5);
+}
+
+/* Next Prev */
+
+.review-slider .slick-prev:before,
+.review-slider .slick-next:before{
+  color: #000;
+  content: "\f104"; 
+  font-family: fontawesome;
+  font-size: 30px; 
+  opacity: 1;;
+}
+.review-slider .slick-next:before {
+  transform: rotateY(180deg);
+  display: block;
+}
