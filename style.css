@@ -394,6 +394,105 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 }
 .feature-about {}
 
+/* Section : FAQ */
+
+.faq {
+  width: 1300px; 
+  margin: auto; 
+}
+.faq-content {
+  display: flex; 
+  justify-content: space-between;
+}
+.faq-content > div {
+  
+  width: 50%; 
+  padding: 25px; 
+}
+.faq-accordion {
+
+}
+.faq-item {
+  border: 1px solid #ddd ;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px; 
+}
+.faq-item.active {
+  border: 1px solid lightblue;
+}
+
+
+.faq-item > div {
+  
+}
+
+.faq-title {
+  color: rgb(19, 82, 121); 
+  cursor: pointer;
+}
+.faq-title:after{
+  content: "\f105"; 
+  font-family: fontawesome;
+  float: right; 
+  color:#444; 
+  transition: 0.35s;
+}
+
+.faq-item.active .faq-title:after{
+  color: lightblue;
+  transform: rotate(90deg);
+}
+
+.faq-desc{
+  display: none;
+}
+
+.awards-content {
+  text-align: center;
+}
+.award-image {
+  position: relative
+}
+.award-image:after{
+  content: "December 19, 2022"; 
+  position: absolute; 
+  background-color: #000;
+  width: 185px; 
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  bottom: 5px; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.awards-content h2{
+  font-size: 36px;
+  color: goldenrod;
+}
+.awards-content p{
+  margin-bottom: 40px;
+}
+.btn-awards {
+  border: 1px solid #000; 
+  padding: 1px 20px; 
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.35s;
+}
+.btn-awards:hover{
+  color: #fff;
+  background: crimson;
+  border-color: transparent;
+}
+
+
+
 
 
 
