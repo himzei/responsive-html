@@ -304,6 +304,50 @@ input[name=tabmenu] {
   font-weight: bold;
 }
 
+/* Section : Vision */
+.vision {}
+.vision-inner {}
+.vision-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+.vision-content > div {
+
+}
+.vision-item-desc {
+  background: #fff;
+  display: flex; 
+  justify-content: center;
+  align-items: center ;
+}
+.vision-item-desc h3 {
+  font-size: 28px;
+  margin-bottom: 0; wd
+}
+.vision-item-desc hr{
+  width: 45px; 
+  height: 3px; 
+  border: none;
+  background-color: plum;
+  display: inline-block; 
+}
+.vision-item-desc p {}
+.vision-item-photo {}
+.vision-item-photo img {
+  width: 100%; 
+  height: inherit; 
+  object-fit: cover;
+
+}
+.vision-item-headline{
+  width: 60%; 
+
+}
+
+
+
 /* Checked Function */
 input[id=tab1]:checked ~ .tabs .tab1,
 input[id=tab2]:checked ~ .tabs .tab2,
