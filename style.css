@@ -583,6 +583,7 @@ h1.slogan {
 .guide-video h1 {
   font-size: 38px;
   text-transform: uppercase;
+  line-height: 1.5em;
 }
 .guide-video h1 span {
   color: #eb4d4b;
@@ -692,4 +693,8 @@ h1.slogan {
 .review-slider .slick-next:before {
   transform: rotateY(180deg);
   display: block;
+}
+
+.mockup-slider .slick-arrow{
+  display: none; 
 }
