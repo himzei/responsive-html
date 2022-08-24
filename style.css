@@ -11,7 +11,7 @@ font-family: "Raleway", sans-serif;
 font-family: "Montserrat", sans-serif;
 
 /* Fontawesome 4.7 */
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
 
 /* XEION CDN */
 @import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
@@ -515,6 +515,31 @@ h1.slogan {
 .review-slider div p span {
   display: block;
   font-weight: bold;
+}
+
+/* Section : focus */
+
+.focus {}
+.focus-inner {
+  width: 1300px; 
+  margin : auto; 
+}
+.focus-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.focus-item img {
+  width: 70px; 
+  filter: brightness(0) saturate(100%) invert(89%) sepia(8%) saturate(6575%) hue-rotate(339deg) brightness(107%) contrast(95%);
+}
+.focus-item i {
+
+  transform: rotate(45deg);
+}
+.focus-item p {
+  margin-top: 0;
 }
 
 
