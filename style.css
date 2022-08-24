@@ -11,7 +11,7 @@ font-family: "Raleway", sans-serif;
 font-family: "Montserrat", sans-serif;
 
 /* Fontawesome 4.7 */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /* XEION CDN */
 @import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
@@ -543,7 +543,80 @@ h1.slogan {
 }
 
 
+/* Section : Guide */
+.guide {
+  padding-top: 0;
+}
+.guide-inner {
+  width: 1300px;
+  margin: auto;
+}
+.guide-content {
+  overflow: hidden;
+}
+.guide-content > div {
+  float: left;
+}
+.guide-slider {
+  width: 40%;
+  text-align: center;
+}
+.guide-video {
+  width: 60%;
+}
+.slider-mockup {
+  display: inline-block;
+  position: relative;
+}
+.mockup-slider {
+  /* border: 3px solid red; */
+  position: absolute;
+  width: 85%;
+  height: 550px;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
+.guide-video h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.guide-video h1 span {
+  color: #eb4d4b;
+}
+.video-headline {
+  font-size: 34px;
+}
+.video-headline img {
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.video-frame {
+  position: relative;
+  width: 530px;
+  height: 370px;
+  position: relative;
+}
+.video-frame img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.video-frame .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+
+  cursor: pointer;
+
+}
 
 
 /* 마우스 휠 */
