@@ -54,4 +54,14 @@ $(function () {
     $(this).parent().addClass("active");
     $(this).parent().siblings().removeClass("active");
   });
+
+  // video modal
+  $(".open-modal").click(function () {
+    $(".video-modal").fadeIn();
+    $("body").addClass("active");
+  });
+  $(".close-modal").click(function () {
+    $(".video-modal").fadeOut();
+    $("body").removeClass("active");
+  });
 });
