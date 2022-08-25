@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  /* Default CSS */
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 50px 15px;
+  }
+
+  /* Section : Welcome */
+  .slideshow {
+    display: none;
+  }
+  .welcome-heading {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .welcome-heading h1 {
+    font-size: 40px;
+  }
+  .welcome-heading span {
+    font-size: 18px;
+  }
+  .welcome-heading p {
+    padding: 0 30px;
+  }
+
+  /* Mouse Wheels */
+  .mouse {
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Section : CEO - Access */
+  .ceo-inner,
+  .access-inner {
+    width: 100%;
+  }
+  .ceo-content > div {
+    float: none;
+    width: 100%;
+  }
+  .ceo-right > div {
+    float: none;
+    width: 100%;
+  }
+  .ceo-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .ceo-left {
+    padding-right: 0;
+  }
+}
