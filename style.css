@@ -1039,3 +1039,44 @@ footer {
     transform: translateY(0);
   }
 }
+
+/* Scroll Reveal CSS Animation */
+.ltr {
+  animation: ltr 0.5s linear both;
+}
+.rtl {
+  animation: rtl 0.5s linear both;
+}
+.utd {
+  animation: utd 0.5s linear both;
+}
+
+@keyframes ltr {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rtl {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes utd {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -33,10 +33,25 @@ $(function () {
     autoStart: true,
     breakLines: false,
   });
+
+  // Wow Scroll Reveal Animation
+  wow = new WOW({
+    boxClass: "wow",
+    offset: 150,
+    mobile: true,
+  });
+  wow.init();
 });
 
 // FAQ Accordion
 $(function () {
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 50) {
+      $("header, .btn-top").addClass("active");
+    } else {
+      $("header, .btn-top").removeClass("active");
+    }
+  });
   // 처음시작하는 아코디언은 펼쳐라
   $(".faq-desc").eq(0).show();
 
